@@ -51,39 +51,21 @@ h6 {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.15fr 0.25fr 1fr 0.5fr 0.15fr 0.15fr;
   height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .top {
   display: flex;
   align-items: center;
   justify-content: center;
-  grid-row: 1/2;
   background-color: #1a1a1a;
-}
-
-.image {
-  grid-row: 3/4;
-}
-
-.hero-container {
-  grid-row: 4/5;
-}
-
-.socials {
-  grid-row: 5/6;
-}
-
-.footer-container {
-  grid-row: 6/7;
 }
 
 img {
   width: 20%;
-  height: auto;
   margin: auto;
 }
 
@@ -130,6 +112,16 @@ li {
   background-color: #1a1a1a;
 }
 
+.hero-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1a;
+}
+
+.hero-container p {
+  background-color: #1a1a1a;
+}
 @media (max-width: 600px) {
   img {
     width: 75%;
