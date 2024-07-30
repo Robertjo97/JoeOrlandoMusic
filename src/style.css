@@ -54,6 +54,7 @@ h6 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.15fr 0.25fr 1fr 0.5fr 0.15fr 0.15fr;
+  height: 100vh;
 }
 
 .top {
