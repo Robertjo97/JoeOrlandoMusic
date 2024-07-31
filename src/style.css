@@ -93,6 +93,21 @@ li {
   font-size: 1.25rem;
 }
 
+nav a {
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+
 .socials ul {
   display: flex;
   justify-content: center;
@@ -107,7 +122,6 @@ li {
 
 .header {
   width: 600px;
-  font-size: 2.5rem;
   text-align: center;
 }
 
