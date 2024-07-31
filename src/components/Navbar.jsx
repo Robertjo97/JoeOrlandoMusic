@@ -2,10 +2,11 @@ const NavBar = () => {
   return (
     <nav>
       <ul>
-        <li>Shows</li>
-        <li>Contact</li>
-        <li>Music</li>
+        <li>Home</li>
         <li>About</li>
+        <li>Shows</li>
+        <li>Music</li>
+        <li>Contact</li>
       </ul>
     </nav>
   );
