@@ -54,3 +54,22 @@
 #LC {
   border: 1px solid white;
 }
+
+@media (max-width: 600px) {
+  .image img {
+    width: 75%;
+  }
+
+  .top {
+    flex-direction: column;
+  } /*BEGIN MOBILE*/
+
+  .icons {
+    height: 36px;
+    width: auto;
+  }
+
+  .hero-container p {
+    font-size: 1rem;
+  }
+}

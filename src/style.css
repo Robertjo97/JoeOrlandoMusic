@@ -48,25 +48,3 @@ h6 {
 #__next {
   isolation: isolate;
 }
-
-@media (max-width: 600px) {
-  img {
-    width: 75%;
-  }
-  .top {
-    flex-direction: column;
-  } /*BEGIN MOBILE*/
-  nav {
-    max-width: 100%;
-  }
-  .header {
-    max-width: 100%;
-  }
-  .icons {
-    height: 36px;
-    width: auto;
-  }
-  .hero-container p {
-    font-size: 1rem;
-  }
-}

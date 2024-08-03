@@ -21,3 +21,9 @@ nav a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  nav {
+    max-width: 100%;
+  }
+}
