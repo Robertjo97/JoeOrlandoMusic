@@ -151,4 +151,17 @@ nav a:hover {
   .top {
     flex-direction: column;
   } /*BEGIN MOBILE*/
+  nav {
+    max-width: 100%;
+  }
+  .header {
+    max-width: 100%;
+  }
+  .icons {
+    height: 36px;
+    width:auto;
+  }
+  .hero-container p {
+    font-size: 1rem;
+  }
 }
