@@ -1,17 +1,21 @@
+import {Route, Routes} from 'react-router-dom'
 import NavBar from "./components/Navbar.jsx";
 import Home from "./Home/Home.jsx";
+import About from "./About/About.jsx";
+import Shows from "./Shows/Shows.jsx";
+import Music from "./Music/Music.jsx";
+import Contact from "./Contact/Contact.jsx";
 
 function App() {
   return (
     <div>
-      <NavBar/>
-      <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/shows" component={Shows}/>
-        <Route path="/music" component={Music}/>
-        <Route path="/contact" component={Contact}/>
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/shows" element={<Shows/>}/>
+        <Route path="/music" element={<Music/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+      </Routes>
     </div>
   );
 }
