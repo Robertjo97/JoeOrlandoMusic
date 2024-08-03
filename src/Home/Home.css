@@ -5,14 +5,6 @@
   justify-content: space-between;
 }
 
-/* .top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 1%;
-  padding-bottom: 5%;
-} */
-
 .image img {
   width: 450px;
   margin: auto;
