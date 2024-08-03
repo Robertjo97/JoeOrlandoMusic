@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import NavBar from "../components/Navbar";
 import Hero from "./Hero";
 import Image from "./Image";
@@ -10,7 +9,6 @@ const Home = () => {
   return (
     <div className="home-container">
       <NavBar />
-      <Header />
       <Image />
       <Hero />
       <Socials />
