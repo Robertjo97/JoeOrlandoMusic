@@ -64,9 +64,11 @@ h6 {
   padding-bottom: 5%;
 }
 
-img {
+.image img {
   width:450px;
   margin: auto;
+  border:1px solid white;
+  border-radius: 5px;
 }
 
 .icons {
