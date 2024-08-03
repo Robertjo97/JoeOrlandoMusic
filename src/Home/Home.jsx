@@ -7,11 +7,9 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div className="container">
-      <div className="top">
-        <Header />
-        <NavBar />
-      </div>
+    <div className="home-container">
+      <Header />
+      <NavBar />
       <Image />
       <Hero />
       <Socials />
