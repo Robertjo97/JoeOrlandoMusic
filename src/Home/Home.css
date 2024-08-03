@@ -59,11 +59,7 @@
   .image img {
     width: 75%;
   }
-
-  .top {
-    flex-direction: column;
-  } /*BEGIN MOBILE*/
-
+  
   .icons {
     height: 36px;
     width: auto;
