@@ -38,13 +38,25 @@
   margin: 1rem;
 }
 
+.socials a {
+  text-decoration: none;
+}
+
 .icons {
   height: 48px;
   width: auto;
 }
 
-#LC {
+.collective-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid white;
+  border-radius: 2.5px;
+  font-weight:bold;
+  font-style: italic;
+  height:48px;
+  width: 150px; 
 }
 
 @media (max-width: 600px) {
@@ -52,7 +64,7 @@
     width: 75%;
   }
 
-  .icons {
+  .icons, .collective-container {
     height: 36px;
     width: auto;
   }

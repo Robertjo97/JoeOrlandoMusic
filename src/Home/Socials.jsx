@@ -27,14 +27,7 @@ const Socials = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.facebook.com/LandoCollective">
-            <img
-              className="icons"
-              id="LC"
-              src={collectivefb}
-              alt="LandoCollective facebook link"
-            ></img>
-          </a>
+          <a href="https://www.facebook.com/LandoCollective"><div className="collective-container">The Collective</div></a>
         </li>
       </ul>
     </div>
