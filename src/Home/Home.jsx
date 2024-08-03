@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Image from "./Image";
 import Socials from "./Socials";
 import Footer from "../components/Footer";
+import "./Home.css";
 
 const Home = () => {
   return (
