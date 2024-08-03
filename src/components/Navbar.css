@@ -50,6 +50,8 @@ nav li a:hover {
 @media (max-width: 1200px) {
   .nav-container {
     width: 100%;
+    padding-top:1rem;
+    padding-bottom: 3rem;
   }
   nav {
     flex-direction: column;
@@ -57,6 +59,7 @@ nav li a:hover {
   }
   .header {
     max-width: 100%;
+    margin-bottom: 1rem;
   }
   nav ul {
     max-width: 100%;
