@@ -4,6 +4,7 @@ import Title from "./Title.jsx";
 import AboutUs from "./AboutUs.jsx";
 import Meet from "./Meet.jsx";
 import Achievements from "./Achievements.jsx";
+import Sound from "./Sound.jsx";
 import "./about.css";
 
 const About = () => {
@@ -13,6 +14,7 @@ const About = () => {
       <Title />
       <AboutUs />
       <Meet />
+      <Sound />
       <Achievements />
       <Footer />
     </div>
