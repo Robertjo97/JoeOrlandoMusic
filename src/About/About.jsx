@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Title from "./Title.jsx";
 import AboutUs from "./AboutUs.jsx";
 import Meet from "./Meet.jsx";
+import Achievements from "./Achievements.jsx";
 import "./about.css";
 
 const About = () => {
@@ -12,6 +13,7 @@ const About = () => {
       <Title />
       <AboutUs />
       <Meet />
+      <Achievements />
       <Footer />
     </div>
   );

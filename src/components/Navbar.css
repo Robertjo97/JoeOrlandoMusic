@@ -30,7 +30,7 @@ nav ul {
   justify-content: space-evenly;
 }
 
-li {
+nav li {
   display: inline;
   font-size: 1.25rem;
   font-weight: bold;
