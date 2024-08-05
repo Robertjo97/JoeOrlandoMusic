@@ -4,12 +4,3 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
-.paragraph-container {
-    display: flex;
-    justify-content: center;
-}
-
-.paragraph-container p {
-    width: 50%;
-}
