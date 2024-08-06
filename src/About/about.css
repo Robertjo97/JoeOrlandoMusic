@@ -4,3 +4,17 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.title-container {
+    text-align: center;
+}
+
+.title-container h1 {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.title-container h3 {
+    font-size: 1rem;
+    font-weight: 400;
+}
