@@ -1,0 +1,9 @@
+- Replace 'about' page with 'projects'
+
+- Add a dropdown menu to 'projects' that lists the different bands
+
+- Each band selection should be an about for that specific band.
+
+- Add shows.json with list of shows incl name of band, date, time, location.
+
+- Pull most upcoming show and display it on home.
