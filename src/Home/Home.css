@@ -5,11 +5,12 @@
   justify-content: space-between;
 }
 
+.image {
+  text-align: center;
+}
 .image img {
   width: 450px;
-  margin: auto;
-  /* border: 1px solid white; */
-  border-radius: 5px;
+  height: auto;
 }
 
 .hero-container {
