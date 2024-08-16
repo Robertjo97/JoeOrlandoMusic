@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 const NavBar = () => {
   return (
-      <nav className="container-fluid navbar navbar-expand-sm d-flex justify-content-around align-items-center mb-5 border-bottom bg-dark-subtle shadow-lg">
+      <nav className="container-fluid navbar navbar-expand-sm d-flex justify-content-around align-items-center mb-5 border-bottom bg-dark-subtle shadow">
         <Link to="/" className="navbar-brand m-0">
           <h1 className="display-5">Joe Orlando Music</h1>
         </Link>
