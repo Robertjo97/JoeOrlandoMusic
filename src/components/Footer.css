@@ -3,3 +3,7 @@
     padding-top: 1%;
     padding-bottom: 1%;
   }
+
+.footer-container p {
+  margin:0;
+}
