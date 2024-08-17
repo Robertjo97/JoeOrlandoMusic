@@ -1,7 +1,3 @@
-- Implement a new bootstrap branch
-
-- bootstrap branch should initially set the nav to a container and add the hoverable nav links and thinner font
-
 - Replace 'about' page with 'projects'
 
 - Add a dropdown menu to 'projects' that lists the different bands
