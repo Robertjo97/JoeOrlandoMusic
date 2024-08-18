@@ -1,8 +1,11 @@
 body {
-  background-color: #121212;
-  /* background-color: black; */
+  background-color: #000000;
 }
 
-.list-group-item {
-  background-color: #121212;
+.navbar {
+  background-color: #000000;
+}
+
+.hero, .hero li {
+  background-color: #000000;
 }
