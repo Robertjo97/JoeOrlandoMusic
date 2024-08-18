@@ -6,7 +6,7 @@ import collectivefb from "../assets/socialmedia/Snap1.png";
 
 const Footer = () => {
   return (
-    <div className="footer-container border-top">
+    <div className="footer-container">
       <footer>
         <div className="socials">
           <ul className="p-0 m-0">
