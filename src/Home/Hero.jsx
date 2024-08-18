@@ -1,8 +1,12 @@
 const Hero = () => {
   return (
-    <div className="hero-container text-center text-body-emphasis fs-3 mb-5">
-      <p>Next Show:</p>
-      <p>October 19th | 12:00am - 12:00pm | Fresno, CA</p>
+    <div className="container text-center mb-5">
+      <p className="display-6 fs-2">Next Show:</p>
+      <ul className="list-group list-group-flush display-6 fs-4">
+        <li className="list-group-item">August 24th |  6:00pm - 9:00pm</li>
+        <li className="list-group-item">Moonraker Millhouse, Cameron Park, CA</li>
+        <li className="list-group-item">The Collective</li>
+      </ul>
     </div>
   );
 };
