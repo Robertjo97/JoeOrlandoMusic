@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="container text-center mb-5">
+    <div className="container hero text-center mb-5">
       <p className="display-6 fs-3 mb-4"><strong><em>Next Show:</em></strong></p>
       <ul className="list-group list-group-flush display-6 fs-4">
         <li className="list-group-item pb-3">August 24th - 6:00pm</li>
