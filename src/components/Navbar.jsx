@@ -39,12 +39,18 @@ const NavBar = () => {
               </a>
               <ul className="dropdown-menu bg-black">
                 <li>
-                  <Link to="/about" className="dropdown-item text-body-secondary">
+                  <Link
+                    to="/about"
+                    className="dropdown-item text-body-secondary"
+                  >
                     The Collective
                   </Link>
                 </li>
                 <li>
-                  <Link to="/shows" className="dropdown-item text-body-secondary">
+                  <Link
+                    to="/shows"
+                    className="dropdown-item text-body-secondary"
+                  >
                     Lando-Koop
                   </Link>
                 </li>
