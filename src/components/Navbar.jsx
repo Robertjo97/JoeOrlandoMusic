@@ -13,8 +13,14 @@ const NavBar = () => {
               Home
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/about" className="nav-link fs-5">About</Link>
+          <li className="nav-item dropdown">
+            <a href="#" role="button" data-bs-toggle="dropdown" className="nav-link fs-5">Projects</a>
+            <ul className="dropdown-menu bg-black">
+              <li><Link to="/about" className="dropdown-item" >The Collective</Link></li>
+              <li><Link to="/shows" className="dropdown-item">Lando-Koop</Link></li>
+              <li><Link to="#" className="dropdown-item">Band 3</Link></li>
+              <li><Link to="#" className="dropdown-item">Band 4</Link></li>
+            </ul>
           </li>
           <li className="nav-item">
             <Link to="/shows" className="nav-link fs-5">Shows</Link>
