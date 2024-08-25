@@ -39,22 +39,22 @@ const NavBar = () => {
               </a>
               <ul className="dropdown-menu bg-black">
                 <li>
-                  <Link to="/about" className="dropdown-item">
+                  <Link to="/about" className="dropdown-item text-body-secondary">
                     The Collective
                   </Link>
                 </li>
                 <li>
-                  <Link to="/shows" className="dropdown-item">
+                  <Link to="/shows" className="dropdown-item text-body-secondary">
                     Lando-Koop
                   </Link>
                 </li>
                 <li>
-                  <Link to="#" className="dropdown-item">
+                  <Link to="#" className="dropdown-item text-body-secondary">
                     Band 3
                   </Link>
                 </li>
                 <li>
-                  <Link to="#" className="dropdown-item">
+                  <Link to="#" className="dropdown-item text-body-secondary">
                     Band 4
                   </Link>
                 </li>
