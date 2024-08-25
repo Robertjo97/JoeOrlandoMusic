@@ -1,3 +1,5 @@
+- Update dropdown for mobile.
+
 - Each band selection should be an about for that specific band.
 
 - Add shows.json with list of shows incl name of band, date, time, location.
