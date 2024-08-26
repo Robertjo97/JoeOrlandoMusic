@@ -1,3 +1,5 @@
+- Finish adding NavLinks for active links.
+
 - Add ticket to front page.
 
 - Each band selection should be an about for that specific band.

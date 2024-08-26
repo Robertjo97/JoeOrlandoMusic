@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -24,9 +25,9 @@ const NavBar = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to="/" className="nav-link fs-5">
+              <NavLink to="/" exact className="nav-link fs-5" activeClassName="active">
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -67,9 +68,9 @@ const NavBar = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <Link to="/shows" className="nav-link fs-5">
+              <NavLink to="/shows" className="nav-link fs-5" activeClassName="active">
                 Shows
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
               <Link to="/music" className="nav-link fs-5">

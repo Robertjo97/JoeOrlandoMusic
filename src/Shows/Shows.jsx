@@ -10,7 +10,6 @@ const Shows = () => {
     fetch("/shows.json")
       .then((Response) => Response.json())
       .then((data) => {
-        console.log(data);
         setShows(data);
       })
       .catch((error) => {
