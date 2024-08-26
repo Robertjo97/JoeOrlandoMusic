@@ -1,14 +1,50 @@
 [
   {
-    "date": "October 19th",
-    "time": "12:00pm",
-    "location": "Merced, CA",
-    "band": "Slave 2 Nothing"
+    "date": "August 29, 2024",
+    "time": "6:00pm",
+    "location": "Painkillers Pub & Grub, Rocklin, CA",
+    "band": "The Collective"
   },
   {
-    "date": "August 24th",
+    "date": "August 31, 2024",
     "time": "6:00pm",
-    "location": "Moonraker Millhouse, Cameron Park, CA",
+    "location": "Sierra Vista Winery, Placerville, CA",
+    "band": "The Collective"
+  },
+  {
+    "date": "September 12, 2024",
+    "time": "5:30pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "Lando Koop (special performance)"
+  },
+  {
+    "date": "September 19, 2024",
+    "time": "5:30pm",
+    "location": "Legends @ Woodcreek, Roseville, CA",
+    "band": "The Collective"
+  },
+  {
+    "date": "September 27, 2024",
+    "time": "6:00pm",
+    "location": "Painkillers Pub & Grub, Rocklin, CA",
+    "band": "The Collective"
+  },
+  {
+    "date": "October 18, 2024",
+    "time": "7:00pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "The Collective"
+  },
+  {
+    "date": "Novebmer 29, 2024",
+    "time": "7:00pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "The Collective"
+  },
+  {
+    "date": "December 31, 2024",
+    "time": "N/A",
+    "location": "New Years Eve is Booked!!, Save the Date, CA",
     "band": "The Collective"
   }
 ]
