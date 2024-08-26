@@ -23,7 +23,7 @@ const Shows = () => {
       <NavBar />
       <div className="shows-list container mb-5">
         {shows.length > 0 ? (
-          <ul className="list-group">
+          <ul className="list-group list-group-flush">
             {shows.map((show, index) => (
               <li className="list-group-item bg-black text-center" key={index}>
                 {show.date} - {show.time}<br></br>{show.location}<br></br>{show.band}
