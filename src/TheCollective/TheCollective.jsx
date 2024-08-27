@@ -1,5 +1,5 @@
-import NavBar from "../components/Navbar";
-import Footer from "../components/Footer";
+import NavBar from "../components/Navbar.jsx";
+import Footer from "../components/Footer.jsx";
 import Title from "./Title.jsx";
 import AboutUs from "./AboutUs.jsx";
 import Meet from "./Meet.jsx";

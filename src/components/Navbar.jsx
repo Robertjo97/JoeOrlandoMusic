@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 const NavBar = () => {
+  const location = useLocation();
+  const projectPaths = ["/about"]
   return (
     <nav className="navbar navbar-expand-lg mb-5 border-bottom shadow">
       <div className="container">
