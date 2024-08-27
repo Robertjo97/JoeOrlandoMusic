@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -25,7 +26,12 @@ const NavBar = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink to="/" exact className="nav-link fs-5" activeClassName="active">
+              <NavLink
+                to="/"
+                exact
+                className="nav-link fs-5"
+                activeClassName="active"
+              >
                 Home
               </NavLink>
             </li>
@@ -68,19 +74,31 @@ const NavBar = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <NavLink to="/shows" className="nav-link fs-5" activeClassName="active">
+              <NavLink
+                to="/shows"
+                className="nav-link fs-5"
+                activeClassName="active"
+              >
                 Shows
               </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/music" className="nav-link fs-5">
+              <NavLink
+                to="/music"
+                activeClassName="active"
+                className="nav-link fs-5"
+              >
                 Music
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link fs-5">
+              <NavLink
+                to="/contact"
+                className="nav-link fs-5"
+                activeClassName="active"
+              >
                 Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
