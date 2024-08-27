@@ -1,5 +1,5 @@
-import NavBar from "../components/Navbar.jsx";
-import Footer from "../components/Footer.jsx";
+import NavBar from "../../components/Navbar.jsx";
+import Footer from "../../components/Footer.jsx";
 import Title from "./Title.jsx";
 import AboutUs from "./AboutUs.jsx";
 import Meet from "./Meet.jsx";
@@ -7,7 +7,7 @@ import Achievements from "./Achievements.jsx";
 import Sound from "./Sound.jsx";
 import "./about.css";
 
-const About = () => {
+const TheCollective = () => {
   return (
     <div className="about-container">
       <NavBar />
@@ -21,4 +21,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default TheCollective;

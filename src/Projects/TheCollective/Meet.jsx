@@ -1,7 +1,7 @@
-import joe from "../assets/meetpics/joepic.png";
-import mike1 from "../assets/meetpics/mikepic.png";
-import mike2 from "../assets/meetpics/mikedrumpic.png";
-import mike3 from "../assets/meetpics/uptonpic.png";
+import joe from "../../assets/meetpics/joepic.png";
+import mike1 from "../../assets/meetpics/mikepic.png";
+import mike2 from "../../assets/meetpics/mikedrumpic.png";
+import mike3 from "../../assets/meetpics/uptonpic.png";
 
 const Meet = () => {
   return (
