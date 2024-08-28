@@ -6,7 +6,7 @@ import collectivefb from "../assets/socialmedia/Snap1.png";
 const Socials = () => {
   return (
     <div className="socials">
-      <ul>
+      <ul className="p-0 m-0">
         <li>
           <a href="http://www.facebook.com/JoeOrlandoMusician">
             <img
@@ -27,7 +27,7 @@ const Socials = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.facebook.com/LandoCollective"><div className="collective-container">The Collective</div></a>
+          <a href="https://www.facebook.com/LandoCollective"><button type="button" className="collective-container btn btn-outline-light">The Collective</button></a>
         </li>
       </ul>
     </div>

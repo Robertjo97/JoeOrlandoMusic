@@ -1,4 +1,4 @@
-import collective from "../assets/collective.png";
+import collective from "../../assets/collective.png";
 
 const AboutUs = () => {
   return (

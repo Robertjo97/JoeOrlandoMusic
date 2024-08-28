@@ -1,32 +1,111 @@
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import { NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const NavBar = () => {
+  const location = useLocation();
+  const projectPaths = ["/thecollective", "/landokoop", "/band3", "/band4"];
   return (
-    <div className="nav-container">
-      <nav>
-        <div className="header">
-          <Link to="/">Joe Orlando Music</Link>
+    <nav className="navbar navbar-expand-lg mb-5 border-bottom shadow">
+      <div className="container">
+        <Link to="/" className="navbar-brand m-0">
+          <h1 className="display-5">Joe Orlando Music</h1>
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <NavLink
+                to="/"
+                exact
+                className="nav-link fs-5"
+                activeClassName="active"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item dropdown">
+              <a
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                className="nav-link fs-5"
+              >
+                Projects
+              </a>
+              <ul className="dropdown-menu bg-black">
+                <li>
+                  <Link
+                    to="/thecollective"
+                    className="dropdown-item"
+                  >
+                    The Collective
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/landokoop"
+                    className="dropdown-item"
+                  >
+                    Lando-Koop
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/band3" className="dropdown-item">
+                    Band 3
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/band4" className="dropdown-item">
+                    Band 4
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/shows"
+                className="nav-link fs-5"
+                activeClassName="active"
+              >
+                Shows
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/music"
+                activeClassName="active"
+                className="nav-link fs-5"
+              >
+                Music
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/contact"
+                className="nav-link fs-5"
+                activeClassName="active"
+              >
+                Contact
+              </NavLink>
+            </li>
+          </ul>
         </div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/shows">Shows</Link>
-          </li>
-          <li>
-            <Link to="/music">Music</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 

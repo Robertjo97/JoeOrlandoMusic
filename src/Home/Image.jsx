@@ -2,8 +2,8 @@ import joeImage from "../assets/BIO-4.png";
 
 const Image = () => {
   return (
-    <div className="image">
-      <img src={joeImage} alt="Picture of Joe Orlando"></img>
+    <div className="image mb-5">
+      <img src={joeImage} className="rounded-3" alt="Picture of Joe Orlando"></img>
     </div>
   );
 };
