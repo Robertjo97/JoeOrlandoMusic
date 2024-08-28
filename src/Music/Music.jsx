@@ -5,6 +5,7 @@ const Music = () => {
   return (
     <div className="music-container vh-100 d-flex flex-column justify-content-between">
       <NavBar />
+      <p className="text-center">Music Page</p>
       <Footer />
     </div>
   );
