@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 
 const NavBar = () => {
   const location = useLocation();
-  const projectPaths = ["/thecollective"]
+  const projectPaths = ["/thecollective", "/landokoop", "/band3", "/band4"];
   return (
     <nav className="navbar navbar-expand-lg mb-5 border-bottom shadow">
       <div className="container">
@@ -57,19 +57,19 @@ const NavBar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/shows"
+                    to="/landokoop"
                     className="dropdown-item"
                   >
                     Lando-Koop
                   </Link>
                 </li>
                 <li>
-                  <Link to="#" className="dropdown-item">
+                  <Link to="/band3" className="dropdown-item">
                     Band 3
                   </Link>
                 </li>
                 <li>
-                  <Link to="#" className="dropdown-item">
+                  <Link to="/band4" className="dropdown-item">
                     Band 4
                   </Link>
                 </li>

@@ -5,17 +5,17 @@ import AboutUs from "./AboutUs.jsx";
 import Meet from "./Meet.jsx";
 import Achievements from "./Achievements.jsx";
 import Sound from "./Sound.jsx";
-import "./about.css";
 
 const TheCollective = () => {
   return (
-    <div className="about-container">
+    <div className="TC-container vh-100 d-flex flex-column justify-content-between">
       <NavBar />
-      <Title />
+      {/* <Title />
       <AboutUs />
       <Meet />
       <Sound />
-      <Achievements />
+      <Achievements /> */}
+      <p className="text-center">The Collective</p>
       <Footer />
     </div>
   );
