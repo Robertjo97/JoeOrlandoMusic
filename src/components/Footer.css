@@ -19,6 +19,7 @@
 .socials li {
   display: inline;
   padding:1rem;
+  padding-top:0;
 }
 
 .socials a {
