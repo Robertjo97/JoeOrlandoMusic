@@ -6,6 +6,19 @@ body {
   background-color: #000000;
 }
 
-.hero, .hero li {
-  background-color: #000000;
+@media (max-width: 600px) {
+  .image img {
+    width: 75%;
+  }
+
+  .collective-container {
+    height: 48px;
+    width:112.5px;
+    font-size: 0.8rem;
+  }
+
+  .icons {
+    height: 48px;
+    width: auto;
+  }
 }
