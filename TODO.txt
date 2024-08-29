@@ -1,4 +1,6 @@
-- Finish adding NavLinks for active links.
+- Increase social media icon sizes when in mobile.
+
+- Make Projects stay highlighted when inside a band page.
 
 - Add ticket to front page.
 
