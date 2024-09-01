@@ -1,3 +1,5 @@
+- Fix activeClassNames cause theyre deprecated.
+
 - Increase social media icon sizes when in mobile.
 
 - Make Projects stay highlighted when inside a band page.
