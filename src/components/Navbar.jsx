@@ -5,6 +5,8 @@ import { useLocation } from "react-router-dom";
 const NavBar = () => {
   const location = useLocation();
   const projectPaths = ["/thecollective", "/landokoop", "/band3", "/band4"];
+  const isProjectActive = projectPaths.includes(location.pathname);
+
   return (
     <nav className="navbar navbar-expand-lg mb-5 border-bottom shadow">
       <div className="container">
@@ -40,7 +42,7 @@ const NavBar = () => {
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
-                className="nav-link fs-5"
+                className={`nav-link fs-5 ${isProjectActive ? "active" : ""}`}
               >
                 Projects
               </a>
