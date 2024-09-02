@@ -1,7 +1,3 @@
-- Fix activeClassNames cause theyre deprecated.
-
-- Make Projects stay highlighted when inside a band page.
-
 - Add ticket to front page.
 
 - Each band selection should be an about for that specific band.
