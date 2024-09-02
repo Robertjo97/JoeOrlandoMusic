@@ -30,9 +30,7 @@ const NavBar = () => {
             <li className="nav-item">
               <NavLink
                 to="/"
-                exact
                 className="nav-link fs-5"
-                activeClassName="active"
               >
                 Home
               </NavLink>
@@ -48,30 +46,30 @@ const NavBar = () => {
               </a>
               <ul className="dropdown-menu bg-black">
                 <li>
-                  <Link
+                  <NavLink
                     to="/thecollective"
                     className="dropdown-item"
                   >
                     The Collective
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link
+                  <NavLink
                     to="/landokoop"
                     className="dropdown-item"
                   >
                     Lando-Koop
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/band3" className="dropdown-item">
+                  <NavLink to="/band3" className="dropdown-item">
                     Band 3
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/band4" className="dropdown-item">
+                  <NavLink to="/band4" className="dropdown-item">
                     Band 4
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -79,7 +77,6 @@ const NavBar = () => {
               <NavLink
                 to="/shows"
                 className="nav-link fs-5"
-                activeClassName="active"
               >
                 Shows
               </NavLink>
@@ -87,7 +84,6 @@ const NavBar = () => {
             <li className="nav-item">
               <NavLink
                 to="/music"
-                activeClassName="active"
                 className="nav-link fs-5"
               >
                 Music
@@ -97,7 +93,6 @@ const NavBar = () => {
               <NavLink
                 to="/contact"
                 className="nav-link fs-5"
-                activeClassName="active"
               >
                 Contact
               </NavLink>
