@@ -1,4 +1,4 @@
-- Add ticket to front page.
+- Write a script so if date of show passes, delete show from json and pull the next one to hero.
 
 - Each band selection should be an about for that specific band.
 
