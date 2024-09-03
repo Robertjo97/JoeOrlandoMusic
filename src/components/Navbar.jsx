@@ -5,6 +5,8 @@ import { useLocation } from "react-router-dom";
 const NavBar = () => {
   const location = useLocation();
   const projectPaths = ["/thecollective", "/landokoop", "/band3", "/band4"];
+  const isProjectActive = projectPaths.includes(location.pathname);
+
   return (
     <nav className="navbar navbar-expand-lg mb-5 border-bottom shadow">
       <div className="container">
@@ -20,7 +22,7 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
           className="collapse navbar-collapse justify-content-end"
@@ -30,9 +32,7 @@ const NavBar = () => {
             <li className="nav-item">
               <NavLink
                 to="/"
-                exact
                 className="nav-link fs-5"
-                activeClassName="active"
               >
                 Home
               </NavLink>
@@ -42,36 +42,36 @@ const NavBar = () => {
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
-                className="nav-link fs-5"
+                className={`nav-link fs-5 ${isProjectActive ? "active" : ""}`}
               >
                 Projects
               </a>
               <ul className="dropdown-menu bg-black">
                 <li>
-                  <Link
+                  <NavLink
                     to="/thecollective"
                     className="dropdown-item"
                   >
                     The Collective
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link
+                  <NavLink
                     to="/landokoop"
                     className="dropdown-item"
                   >
                     Lando-Koop
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/band3" className="dropdown-item">
+                  <NavLink to="/band3" className="dropdown-item">
                     Band 3
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/band4" className="dropdown-item">
+                  <NavLink to="/band4" className="dropdown-item">
                     Band 4
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -79,7 +79,6 @@ const NavBar = () => {
               <NavLink
                 to="/shows"
                 className="nav-link fs-5"
-                activeClassName="active"
               >
                 Shows
               </NavLink>
@@ -87,7 +86,6 @@ const NavBar = () => {
             <li className="nav-item">
               <NavLink
                 to="/music"
-                activeClassName="active"
                 className="nav-link fs-5"
               >
                 Music
@@ -97,7 +95,6 @@ const NavBar = () => {
               <NavLink
                 to="/contact"
                 className="nav-link fs-5"
-                activeClassName="active"
               >
                 Contact
               </NavLink>

@@ -1,11 +1,5 @@
-- Increase social media icon sizes when in mobile.
-
-- Make Projects stay highlighted when inside a band page.
-
 - Add ticket to front page.
 
 - Each band selection should be an about for that specific band.
-
-- Add shows.json with list of shows incl name of band, date, time, location.
 
 - Pull most upcoming show and display it on home.
