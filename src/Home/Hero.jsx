@@ -11,20 +11,18 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="container hero text-center mb-5">
-      <p className="display-6 fs-2 mb-4">
-        <strong>
-          <em>Upcoming Show:</em>
-        </strong>
-      </p>
-      <ul className="list-group list-group-flush display-6 fs-4">
-        <li className="list-group-item pb-3">
-          {nextShow.date} - {nextShow.time}
-        </li>
-        <li className="list-group-item p-3">{nextShow.location}</li>
-        <li className="list-group-item pt-3">{nextShow.band}</li>
-      </ul>
+
+    <div className="container">
+      <div className="hero d-flex justify-content-center border-top border-bottom p-5 align-items-center gap-5 mb-5">
+        <h1><em>Upcoming Show:</em></h1>
+        <ul className="list-group list-group-flush display-6 fs-4">
+          <li className="list-group-item bg-black text-white"><span className="text-danger">*</span> {nextShow.date} - {nextShow.time}</li>
+          <li className="list-group-item bg-black text-white"><span className="text-danger">*</span> {nextShow.location}</li>
+          <li className="list-group-item bg-black text-white"><span className="text-danger">*</span> {nextShow.band}</li>
+        </ul>
+      </div>
     </div>
+    
   );
 };
 

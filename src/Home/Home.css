@@ -12,6 +12,13 @@
 }
 
 @media (max-width: 600px) {
+
+  .hero {
+    flex-direction: column;
+    gap: 1rem !important;
+    
+  }
+  
   .hero li {
     font-size: 1rem;
   }
