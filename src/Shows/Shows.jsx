@@ -20,12 +20,16 @@ const Shows = () => {
   return (
     <div className="shows-container vh-100 d-flex flex-column justify-content-between">
       <NavBar />
-      <div className="shows-list container mb-5">
+      <div className="title mx-auto my-5">
+        <h2>Come see us live!</h2>
+        
+      </div>
+      <div className="shows-list container mb-5 d-flex justify-content-center align-items-center">
         {shows.length > 0 ? (
-          <ul className="list-group list-group-flush">
+          <ul className="list-group list-group-flush display-6 fs-4 mb-5">
             {shows.map((show, index) => (
-              <li className="list-group-item bg-black text-center" key={index}>
-                {show.date} - {show.time}<br></br>{show.location}<br></br>{show.band}
+              <li className="list-group-item bg-black p-4" key={index}>
+                <span className="text-danger">* </span>{show.date} - {show.time}<br></br><span className="text-danger">* </span>{show.location}<br></br><span className="text-danger">* </span>{show.band}
               </li>
             ))}
           </ul>
