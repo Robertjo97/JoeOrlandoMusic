@@ -1,4 +1,4 @@
-# Musician Website
+# Joe Orlando Music
 
 This is a live website built for a professional musician who plays in multiple bands. The site provides fans and venues with information about upcoming shows, band details, and a contact form for direct inquiries.
 
