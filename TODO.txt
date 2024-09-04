@@ -1,6 +1,6 @@
-- Maybe change / link to NavLink
+- Style shows like hero.
 
-- Review that bug when refreshing on vercel
+- Fix mobile styling of hero.
 
 - Write a script so if date of show passes, delete show from json and pull the next one to hero.
 

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
@@ -10,9 +9,9 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg mb-5 border-bottom shadow">
       <div className="container">
-        <Link to="/" className="navbar-brand m-0">
+        <NavLink to="/" className="navbar-brand m-0">
           <h1 className="display-5">Joe Orlando Music</h1>
-        </Link>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
