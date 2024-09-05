@@ -2,6 +2,7 @@ import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useEffect } from "react";
 import { useState } from "react";
+import "./shows.css";
 
 const Shows = () => {
   const [shows, setShows] = useState([]);
