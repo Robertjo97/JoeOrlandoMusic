@@ -21,4 +21,15 @@ body {
     height: 48px;
     width: auto;
   }
+  .shows-title {
+    margin-top:1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .shows-list li {
+    font-size: 1rem;
+  }
+
+  .shows-list ul {
+    margin-bottom: 0 !important;
+  }
 }
