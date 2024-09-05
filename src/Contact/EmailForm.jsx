@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./EmailForm.css";
 
 const EmailForm = () => {
     const [formData, setFormData] = useState({
