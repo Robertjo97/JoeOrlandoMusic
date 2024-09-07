@@ -1,3 +1,7 @@
+.shows-list li p:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 600px) {
   .shows-title {
     margin-top: 1rem !important;
