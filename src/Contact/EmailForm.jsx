@@ -53,7 +53,7 @@ const EmailForm = () => {
                 </div>
                 <div className="email-message mb-5">
                     <label htmlFor="user_message" className="form-label">Your Message:</label>
-                    <textarea className="form-control" rows="3" id="user_message" name="user_message" value={formData.message} onChange={handleChange} required></textarea>
+                    <textarea className="form-control" rows="5" id="user_message" name="user_message" value={formData.message} onChange={handleChange} required></textarea>
                 </div>
                 <button type="submit" className="btn btn-outline-light d-block mx-auto px-5">Send</button>
             </form>
