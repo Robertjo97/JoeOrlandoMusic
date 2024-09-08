@@ -1,3 +1,5 @@
+- Set email to proper email.
+
 - Write a script to parse dates so if date of show passes, pull the next one to hero.
 
 - Each band selection should be an about for that specific band.
