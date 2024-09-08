@@ -1,4 +1,8 @@
-@media (max-width: 1200px){
+.email-form {
+    width: 500px;
+}
+
+@media (max-width: 600px){
     .email-form {
         width:100% !important;
     }

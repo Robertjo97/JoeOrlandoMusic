@@ -40,7 +40,7 @@ const EmailForm = () => {
     };
 
     return (
-        <div className="email-form container border rounded-3 w-25 mb-5">
+        <div className="email-form container border rounded-3 mb-5">
             <form onSubmit={sendEmail} className="p-5">
                 <h2 className="text-center mb-5">Contact me!</h2>
                 <div className="email-name mb-4">

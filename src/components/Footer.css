@@ -1,7 +1,6 @@
 .footer-container {
     text-align: center;
     padding-bottom: 1rem;
-    /* padding-top: 1rem; */
   }
 
 .footer-container p {
@@ -19,7 +18,6 @@
 .socials li {
   display: inline;
   padding:1rem;
-  padding-top:0;
 }
 
 .socials a {
