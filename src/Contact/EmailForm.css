@@ -7,4 +7,8 @@
         width:100% !important;
         border:none !important;
     }
+    .email-form .p-5 {
+        padding-top:0px !important;
+        padding-bottom:0px !important;
+    }
 }
