@@ -1,9 +1,8 @@
-- Style shows like hero.
+- Set email to proper email.
 
-- Fix mobile styling of hero.
-
-- Write a script so if date of show passes, delete show from json and pull the next one to hero.
+- Write a script to parse dates so if date of show passes, pull the next one to hero.
 
 - Each band selection should be an about for that specific band.
 
-- Pull most upcoming show and display it on home.
+- Note: Maybe keep shows a static length incl old shows, but upon adding new shows, remove old shows.
+    That way, shows list remains a consistent display but dynamic adding is allowed.

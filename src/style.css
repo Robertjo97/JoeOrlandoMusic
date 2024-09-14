@@ -7,13 +7,9 @@ body {
 }
 
 @media (max-width: 600px) {
-  .image img {
-    width: 75%;
-  }
-
   .collective-container {
     height: 48px;
-    width:112.5px;
+    width: 112.5px;
     font-size: 0.8rem;
   }
 
