@@ -36,7 +36,7 @@ const NavBar = () => {
                 Home
               </NavLink>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 href="#"
                 role="button"
@@ -73,7 +73,7 @@ const NavBar = () => {
                   </NavLink>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li className="nav-item">
               <NavLink
                 to="/shows"
@@ -82,14 +82,14 @@ const NavBar = () => {
                 Shows
               </NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink
                 to="/music"
                 className="nav-link fs-5"
               >
                 Music
               </NavLink>
-            </li>
+            </li> */}
             <li className="nav-item">
               <NavLink
                 to="/contact"
