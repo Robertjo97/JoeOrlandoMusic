@@ -18,9 +18,12 @@
   }
 
   .hero {
-    flex-direction: column;
-    gap: 1rem !important;
+    padding: 5% !important;
+  }
 
+  .hero li {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
   }
 
   .hero li {
@@ -28,6 +31,6 @@
   }
 
   .list-group p {
-    font-size: 1.5rem !important;
+    font-size: 1.25rem !important;
   }
 }
