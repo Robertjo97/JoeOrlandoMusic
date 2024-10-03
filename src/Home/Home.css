@@ -17,13 +17,12 @@
     width: 75%;
   }
 
-  .hero {
-    flex-direction: column;
-    gap: 1rem !important;
-
+  .hero, .hero li {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
   }
 
   .hero li {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 }
