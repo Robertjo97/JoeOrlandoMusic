@@ -27,7 +27,7 @@ const Shows = () => {
       </div>
       <div className="shows-list container mb-5 d-flex justify-content-center align-items-center">
         {shows.length > 0 ? (
-          <ul className="list-group list-group-flush display-6 fs-4 mb-5 text-center">
+          <ul className="list-group list-group-flush display-6 fs-4 text-center">
             {shows.map((show, index) => (
               <li className="list-group-item bg-black p-4 text-white" key={index}>
                 <p>{show.date} | {show.time}</p>
