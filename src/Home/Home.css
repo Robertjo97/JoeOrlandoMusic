@@ -18,6 +18,14 @@
   }
 
   .hero {
+    padding: 0 !important;
+  }
+
+  .hero li {
+    padding: 0% !important;
+  }
+
+  /* .hero {
     width: 100% !important;
     padding:1rem !important;
   }
@@ -29,5 +37,5 @@
 
   .hero li {
     font-size: 1.25rem;
-  }
+  } */
 }
