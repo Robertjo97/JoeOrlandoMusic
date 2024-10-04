@@ -28,7 +28,10 @@
   }
 
   .hero li {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
-
+  
+  .list-group {
+    width: 100% !important;
+  }
 }
