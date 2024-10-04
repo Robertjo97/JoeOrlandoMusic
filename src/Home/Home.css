@@ -29,6 +29,7 @@
 
   .hero li {
     font-size: 1.25rem;
+    border: none;
   }
   
   .list-group {
