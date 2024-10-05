@@ -4,3 +4,5 @@
 
  - Top of shows list should always be next upcoming show.
    Hide past shows, but keep them in the log(dont delete them).
+
+   Make it greater than or equal to current date so shows on the same day will still show up on the site
