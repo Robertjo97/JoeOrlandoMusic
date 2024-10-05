@@ -2,5 +2,5 @@
 
 - Each band selection should be an about for that specific band.
 
-- Note: Maybe keep shows a static length incl old shows, but upon adding new shows, remove old shows.
-    That way, shows list remains a consistent display but dynamic adding is allowed.
+ - Top of shows list should always be next upcoming show.
+   Hide past shows, but keep them in the log(dont delete them).

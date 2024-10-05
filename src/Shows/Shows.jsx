@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import { useEffect } from "react";
 import { useState } from "react";
 import "./shows.css";
+import { parseDates } from "../utils.js";
 
 const Shows = () => {
   const [shows, setShows] = useState([]);
@@ -11,7 +12,7 @@ const Shows = () => {
     fetch("/shows.json")
       .then((Response) => Response.json())
       .then((data) => {
-        setShows(data);
+        setShows(parseDates(data));
       })
       .catch((error) => {
         console.error("Error: ", error);
