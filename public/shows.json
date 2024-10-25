@@ -50,19 +50,43 @@
   {
     "date": "December 15, 2024",
     "time": "2:00pm",
-    "location": "Cante' Ao Vinho Rocklin",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
     "band": "Lando Koop"
   },
   {
     "date": "December 31, 2024",
-    "time": "N/A",
-    "location": "New Years Eve is Booked!!, Save the Date, CA",
+    "time": "6:00pm",
+    "location": "Rockin' New Years Eve Party!!, Get Your Tickets Early, Cante' Ao Vinho, Rocklin, CA",
     "band": "The Collective"
   },
   {
-    "date": "October 31, 2024",
-    "time": "3:00am",
-    "location": "Merced, CA",
-    "band": "The Ghouls"
+    "date": "February 7, 2025",
+    "time": "7:00pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "THE COLLECTIVE"
+  },
+  {
+    "date": "March 28, 2025",
+    "time": "7:00pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "THE COLLECTIVE"
+  },
+  {
+    "date": "May 23, 2025",
+    "time": "7:00pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "THE COLLECTIVE"
+  },
+  {
+    "date": "July 11, 2025",
+    "time": "7:00pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "THE COLLECTIVE"
+  },
+  {
+    "date": "August 22, 2025",
+    "time": "7:00pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "THE COLLECTIVE"
   }
 ]
