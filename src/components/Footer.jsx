@@ -39,7 +39,7 @@ const Footer = () => {
                   type="button"
                   className="collective-container btn btn-outline-light"
                 >
-                  The Collective
+                  THE COLLECTIVE
                 </button>
               </a>
             </li>
