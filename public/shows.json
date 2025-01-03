@@ -83,10 +83,40 @@
     "location": "Cante' Ao Vinho, Rocklin, CA",
     "band": "THE COLLECTIVE"
   },
+   {
+    "date": "April 12, 2025",
+    "time": "6:30pm",
+    "location": "Painkillers Pub & Grub, Rocklin, CA",
+    "band": "THE COLLECTIVE"
+  },
+   {
+    "date": "April 18, 2025",
+    "time": "6:00pm",
+    "location": "House of Oliver, Roseville, CA",
+    "band": "Joe Orlando Duo"
+  },
   {
     "date": "May 23, 2025",
     "time": "7:00pm",
     "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "THE COLLECTIVE"
+  },
+   {
+    "date": "May 30, 2025",
+    "time": "7:00pm",
+    "location": "Moonraker Millhouse, Cameron Park, CA",
+    "band": "THE COLLECTIVE"
+  },
+   {
+    "date": "June 6, 2025",
+    "time": "6:00pm",
+    "location": "House of Oliver, Roseville, CA",
+    "band": "Joe Orlando Duo"
+  },
+  {
+    "date": "June 20, 2025",
+    "time": "6:30pm",
+    "location": "Painkillers Pub & Grub, Rocklin, CA",
     "band": "THE COLLECTIVE"
   },
   {
@@ -101,4 +131,22 @@
     "location": "Cante' Ao Vinho, Rocklin, CA",
     "band": "THE COLLECTIVE"
   }
+  {
+    "date": "September 13, 2025",
+    "time": "6:30pm",
+    "location": "Painkillers Pub & Grub, Rocklin, CA",
+    "band": "THE COLLECTIVE"
+  },
+  {
+    "date": "October 18, 2025",
+    "time": "6:30pm",
+    "location": "Painkillers Pub & Grub, Rocklin, CA",
+    "band": "THE COLLECTIVE"
+  },
+  {
+    "date": "November 22, 2025",
+    "time": "6:30pm",
+    "location": "Painkillers Pub & Grub, Rocklin, CA",
+    "band": "THE COLLECTIVE"
+  },
 ]
