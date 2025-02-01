@@ -18,7 +18,7 @@ const Hero = () => {
         {nextShow && nextShow.date ? (
         <ul className="list-group list-group-flush display-6 fs-3 text-center">
           <p className="display-6 fs-2 mb-4"><em><strong>Upcoming Show:</strong></em></p>
-          <li className="list-group-item bg-black text-white">{nextShow.date} | {nextShow.time}</li>
+          <li className="list-group-item bg-black text-white">{nextShow.day} | {nextShow.date} | {nextShow.time}</li>
           <li className="list-group-item bg-black text-white"><em>{nextShow.location}</em></li>
           <li className="list-group-item bg-black text-white"><span className="text-danger">*</span> {nextShow.band}<span className="text-danger"> *</span></li>
         </ul>
