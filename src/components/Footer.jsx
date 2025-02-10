@@ -33,7 +33,7 @@ const Footer = () => {
                 <img className="icons" src={bandcamp} alt="Bandcamp link"></img>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="https://www.facebook.com/LandoCollective">
                 <button
                   type="button"
@@ -42,7 +42,7 @@ const Footer = () => {
                   THE COLLECTIVE
                 </button>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <p>© 2024 Joe Orlando Music</p>
