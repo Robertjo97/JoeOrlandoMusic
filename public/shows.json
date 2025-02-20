@@ -80,6 +80,13 @@
     "band": "Lando Koop"
   },
   {
+    "day" : "Monday",
+    "date": "March 17, 2025",
+    "time": "5-8pm",
+    "location": "Brickyard Counter & Bar, El Dorado Hills, CA",
+    "band": "THE COLLECTIVE"
+  },
+   {
     "day" : "Friday",
     "date": "March 28, 2025",
     "time": "7:00pm",
@@ -137,10 +144,24 @@
   },
   {
     "day" : "Friday",
+    "date": "June 27, 2025",
+    "time": "7:00pm",
+    "location": "Zittle Family Amphitheater, Folsom, CA",
+    "band": "THE SKY KINGS"
+  },
+  {
+    "day" : "Friday",
     "date": "July 11, 2025",
     "time": "7:00pm",
     "location": "Cante' Ao Vinho, Rocklin, CA",
     "band": "THE COLLECTIVE"
+  },
+  {
+    "day" : "Saturday",
+    "date": "July 26, 2025",
+    "time": "6:00pm",
+    "location": "Bistro Express, Plymouth, CA",
+    "band": "THE SKY KINGS"
   },
   {
     "day" : "Friday",
@@ -155,6 +176,13 @@
     "time": "6:30pm",
     "location": "Painkillers Pub & Grub, Rocklin, CA",
     "band": "THE COLLECTIVE"
+  },
+  {
+    "day" : "Saturday",
+    "date": "September 27, 2025",
+    "time": "7:00pm",
+    "location": "Western Gateway Park, Penn Valley, CA",
+    "band": "THE SKY KINGS"
   },
   {
     "day" : "Saturday",
