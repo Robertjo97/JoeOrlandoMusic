@@ -143,10 +143,24 @@
     "band": "THE COLLECTIVE"
   },
   {
+    "day" : "Wednesday",
+    "date": "June 25, 2025",
+    "time": "6:00pm",
+    "location": "Calaveras County Fairgrounds, Angels Camp, CA",
+    "band": "THE SKY KINGS"
+  },
+  {
     "day" : "Friday",
     "date": "June 27, 2025",
     "time": "7:00pm",
     "location": "Zittle Family Amphitheater, Folsom, CA",
+    "band": "THE SKY KINGS"
+  },
+  {
+    "day" : "Saturday",
+    "date": "July 5, 2025",
+    "time": "6:00pm",
+    "location": "Bella Grace Winery, Plymouth, CA",
     "band": "THE SKY KINGS"
   },
   {
@@ -160,7 +174,21 @@
     "day" : "Saturday",
     "date": "July 26, 2025",
     "time": "6:00pm",
-    "location": "Bistro Express, Plymouth, CA",
+    "location": "Bistro Expresso Park, Arnold, CA",
+    "band": "THE SKY KINGS"
+  },
+  {
+    "day" : "Thursday",
+    "date": "August 7, 2025",
+    "time": "7:30pm",
+    "location": "Zittle Family Amphitheater, Folsom, CA",
+    "band": "THE SKY KINGS"
+  },
+  {
+    "day" : "Friday",
+    "date": "August 15, 2025",
+    "time": "6:00pm",
+    "location": "Ancil Hoffman Golf Coarse, Carmichael, CA",
     "band": "THE SKY KINGS"
   },
   {
@@ -180,7 +208,7 @@
   {
     "day" : "Saturday",
     "date": "September 27, 2025",
-    "time": "7:00pm",
+    "time": "7:30pm",
     "location": "Western Gateway Park, Penn Valley, CA",
     "band": "THE SKY KINGS"
   },
