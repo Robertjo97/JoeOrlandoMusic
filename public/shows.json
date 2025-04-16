@@ -200,6 +200,13 @@
   },
   {
     "day" : "Saturday",
+    "date": "August 23, 2025",
+    "time": "6:30pm",
+    "location": "House of Oliver, Roseville, CA",
+    "band": "THE COLLECTIVE"
+  },
+  {
+    "day" : "Saturday",
     "date": "September 13, 2025",
     "time": "6:30pm",
     "location": "Painkillers Pub & Grub, Rocklin, CA",
@@ -211,6 +218,13 @@
     "time": "7:30pm",
     "location": "Western Gateway Park, Penn Valley, CA",
     "band": "THE SKY KINGS"
+  },
+  {
+    "day" : "Saturday",
+    "date": "August 11, 2025",
+    "time": "6:30pm",
+    "location": "House of Oliver, Roseville, CA",
+    "band": "THE COLLECTIVE"
   },
   {
     "day" : "Saturday",
