@@ -182,7 +182,7 @@
     "date": "July 17, 2025",
     "time": "6:00pm",
     "location": "Hotel Sierra Vista, Auburn, CA",
-    "band": "Lando Koop"
+    "band": "Lando Koop Duo"
   },
   {
     "day" : "Saturday",
@@ -190,6 +190,13 @@
     "time": "6:00pm",
     "location": "Bistro Expresso Park, Arnold, CA",
     "band": "THE SKY KINGS"
+  },
+  {
+    "day" : "Sunday",
+    "date": "August 3, 2025",
+    "time": "2:00pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "Lando Koop Duo"
   },
   {
     "day" : "Thursday",
@@ -213,6 +220,13 @@
     "band": "THE COLLECTIVE"
   },
   {
+    "day" : "Thursday",
+    "date": "September 11, 2025",
+    "time": "6:00pm",
+    "location": "Hotel Sierra Vista, Auburn, CA",
+    "band": "Lando Koop Duo"
+  },
+  {
     "day" : "Saturday",
     "date": "September 13, 2025",
     "time": "6:30pm",
@@ -225,6 +239,13 @@
     "time": "7:30pm",
     "location": "Western Gateway Park, Penn Valley, CA",
     "band": "THE SKY KINGS"
+  },
+  {
+    "day" : "Thursday",
+    "date": "October 9, 2025",
+    "time": "6:00pm",
+    "location": "Hotel Sierra Vista, Auburn, CA",
+    "band": "Lando Koop Duo"
   },
   {
     "day" : "Sunday",
