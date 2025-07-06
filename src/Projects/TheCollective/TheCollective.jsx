@@ -10,11 +10,6 @@ const TheCollective = () => {
   return (
     <div className="TC-container vh-100 d-flex flex-column justify-content-between">
       <NavBar />
-      {/* <Title />
-      <AboutUs />
-      <Meet />
-      <Sound />
-      <Achievements /> */}
       <p className="text-center">The Collective</p>
       <Footer />
     </div>
