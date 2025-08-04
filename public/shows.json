@@ -25,7 +25,7 @@
   },
   {
     "date": "September 27, 2024",
-    "time": "6:00pm",
+    "time": "6:00pm", 
     "location": "Painkillers Pub & Grub, Rocklin, CA",
     "band": "The Collective"
   },
@@ -194,78 +194,89 @@
   {
     "day" : "Sunday",
     "date": "August 3, 2025",
-    "time": "2:00pm",
+    "time": "2:00pm - 3:00pm",
     "location": "Cante' Ao Vinho, Rocklin, CA",
-    "band": "Lando Koop Duo"
+    "band": "Lando Koop Duo",
+    "custom":"This is a special show commemorating something"
   },
   {
     "day" : "Thursday",
     "date": "August 7, 2025",
     "time": "7:30pm",
     "location": "Zittle Family Amphitheater, Folsom, CA",
-    "band": "THE SKY KINGS"
+    "band": "THE SKY KINGS",
+    "custom": ""
   },
   {
     "day" : "Friday",
     "date": "August 15, 2025",
     "time": "6:00pm",
     "location": "Ancil Hoffman Golf Coarse, Carmichael, CA",
-    "band": "THE SKY KINGS"
+    "band": "THE SKY KINGS",
+    "custom": "another test"
   },
   {
     "day" : "Friday",
     "date": "August 22, 2025",
     "time": "7:00pm",
     "location": "Cante' Ao Vinho, Rocklin, CA",
-    "band": "THE COLLECTIVE"
+    "band": "THE COLLECTIVE",
+    "custom": ""
   },
   {
     "day" : "Thursday",
     "date": "September 11, 2025",
     "time": "6:00pm",
     "location": "Hotel Sierra Vista, Auburn, CA",
-    "band": "Lando Koop Duo"
+    "band": "Lando Koop Duo",
+    "custom": ""
   },
   {
     "day" : "Saturday",
     "date": "September 13, 2025",
     "time": "6:30pm",
     "location": "Painkillers Pub & Grub, Rocklin, CA",
-    "band": "THE COLLECTIVE"
+    "band": "THE COLLECTIVE",
+    "custom": ""
   },
   {
     "day" : "Saturday",
     "date": "September 27, 2025",
     "time": "7:30pm",
     "location": "Western Gateway Park, Penn Valley, CA",
-    "band": "THE SKY KINGS"
+    "band": "THE SKY KINGS",
+    "custom": ""
   },
   {
     "day" : "Thursday",
     "date": "October 9, 2025",
     "time": "6:00pm",
     "location": "Hotel Sierra Vista, Auburn, CA",
-    "band": "Lando Koop Duo"
+    "band": "Lando Koop Duo",
+    "custom": ""
   },
   {
     "day" : "Sunday",
     "date": "October 26, 2025",
     "time": "6:30pm",
     "location": "House of Oliver (Special CCR Tribute & Halloween show), Roseville, CA",
-    "band": "THE COLLECTIVE"
+    "band": "THE COLLECTIVE",
+    "custom": ""
   },
   {
     "day" : "Saturday",
     "date": "October 18, 2025",
     "time": "6:30pm",
     "location": "Painkillers Pub & Grub, Rocklin, CA",
-    "band": "THE COLLECTIVE"
+    "band": "THE COLLECTIVE",
+    "custom": ""
   },
   {
     "day" : "Saturday",
     "date": "November 22, 2025",
     "time": "6:30pm",
     "location": "Painkillers Pub & Grub, Rocklin, CA",
-    "band": "THE COLLECTIVE"
+    "band": "THE COLLECTIVE",
+    "custom": ""
   }
 ]
