@@ -36,3 +36,16 @@
   height: 48px;
   width: 150px;
 } */
+
+.LK-container {
+  border:2px solid white;
+  text-decoration:none;
+  color:white;
+  padding:10px;
+  border-radius:5px;
+}
+
+.LK-container:hover {
+  background-color: white;
+  color:black;
+}

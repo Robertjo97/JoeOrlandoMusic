@@ -213,7 +213,7 @@
     "time": "6:00pm",
     "location": "Ancil Hoffman Golf Coarse, Carmichael, CA",
     "band": "THE SKY KINGS",
-    "custom": "another test"
+    "custom": ""
   },
   {
     "day" : "Friday",
@@ -259,9 +259,9 @@
     "day" : "Sunday",
     "date": "October 26, 2025",
     "time": "6:30pm",
-    "location": "House of Oliver (Special CCR Tribute & Halloween show), Roseville, CA",
+    "location": "House of Oliver, Roseville, CA",
     "band": "THE COLLECTIVE",
-    "custom": ""
+    "custom": "Special CCR Tribute & Halloween show"
   },
   {
     "day" : "Saturday",

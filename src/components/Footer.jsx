@@ -33,6 +33,11 @@ const Footer = () => {
                 <img className="icons" src={bandcamp} alt="Bandcamp link"></img>
               </a>
             </li>
+            <li>
+              <a href="https://www.facebook.com/landokoop#">
+                <div className="LK-container">Lando Koop</div>
+              </a>
+            </li>
           </ul>
         </div>
         <p>© 2024 Joe Orlando Music</p>
