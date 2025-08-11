@@ -31,9 +31,10 @@ const Shows = () => {
           <ul className="list-group list-group-flush display-6 fs-4 text-center">
             {shows.map((show, index) => (
               <li className="list-group-item bg-black p-4 text-white" key={index}>
+                <p><span className="text-danger">* </span>{show.band}<span className="text-danger"> *</span></p>
                 <p>{show.day} | {show.date} | {show.time}</p>
                 <p><em>{show.location}</em></p>
-                <p><span className="text-danger">* </span>{show.band}<span className="text-danger"> *</span></p>
+                {show.custom && <p><span className="text-warning">* </span>{show.custom}<span className="text-warning"> *</span></p>}
               </li>
             ))}
           </ul>

@@ -36,44 +36,6 @@ const NavBar = () => {
                 Home
               </NavLink>
             </li>
-            {/* <li className="nav-item dropdown">
-              <a
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                className={`nav-link fs-5 ${isProjectActive ? "active" : ""}`}
-              >
-                Projects
-              </a>
-              <ul className="dropdown-menu bg-black">
-                <li>
-                  <NavLink
-                    to="/thecollective"
-                    className="dropdown-item"
-                  >
-                    The Collective
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/landokoop"
-                    className="dropdown-item"
-                  >
-                    Lando-Koop
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/band3" className="dropdown-item">
-                    Band 3
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/band4" className="dropdown-item">
-                    Band 4
-                  </NavLink>
-                </li>
-              </ul>
-            </li> */}
             <li className="nav-item">
               <NavLink
                 to="/shows"
@@ -82,14 +44,6 @@ const NavBar = () => {
                 Shows
               </NavLink>
             </li>
-            {/* <li className="nav-item">
-              <NavLink
-                to="/music"
-                className="nav-link fs-5"
-              >
-                Music
-              </NavLink>
-            </li> */}
             <li className="nav-item">
               <NavLink
                 to="/contact"
