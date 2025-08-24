@@ -264,11 +264,11 @@
   },
   {
     "day" : "Sunday",
-    "date": "October 26, 2025",
-    "time": "6:30pm",
-    "location": "House of Oliver, Roseville, CA",
-    "band": "THE COLLECTIVE",
-    "custom": "Special CCR Tribute & Halloween show"
+    "date": "October 12, 2025",
+    "time": "TBD",
+    "location": "Viaggio Winery, Lodi, CA",
+    "band": "THE SKY KINGS",
+    "custom": ""
   },
   {
     "day" : "Saturday",
@@ -279,11 +279,35 @@
     "custom": ""
   },
   {
+    "day" : "Sunday",
+    "date": "October 26, 2025",
+    "time": "6:30pm",
+    "location": "House of Oliver, Roseville, CA",
+    "band": "THE COLLECTIVE",
+    "custom": "SPECIAL EVENT CCR Tribute Show"
+  },
+  {
+    "day" : "Friday",
+    "date": "November 7, 2025",
+    "time": "7:00pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "THE COLLECTIVE"
+	"custom": ""
+  },
+  {
     "day" : "Saturday",
     "date": "November 22, 2025",
     "time": "6:30pm",
     "location": "Painkillers Pub & Grub, Rocklin, CA",
     "band": "THE COLLECTIVE",
+    "custom": ""
+  },
+  {
+    "day" : "Friday",
+    "date": "December 12, 2025",
+    "time": "7:00pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "THE COLLECTIVE"
     "custom": ""
   }
 ]
