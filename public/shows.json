@@ -304,6 +304,14 @@
 	"custom": "New Location with lots of parking! 7110 Auburn Blvd."
   },
   {
+    "day" : "Friday",
+    "date": "November 14, 2025",
+    "time": "7:00pm",
+    "location": "Cante' Ao Vinho, Rocklin, CA",
+    "band": "THE UN-COLLECTED",
+    "custom": ""
+  }
+  {
     "day" : "Saturday",
     "date": "November 22, 2025",
     "time": "6:30pm",
