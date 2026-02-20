@@ -369,6 +369,14 @@
   },
   {
     "day" : "Friday",
+    "date": "May 8, 2026",
+    "time": "8:00pm",
+    "location": "Jan's Lounge, Orangevale, CA",
+    "band": "THE COLLECTIVE",
+    "custom": "9222 Greenback Ln, Orangevale, CA (916) 233-5235"
+  },  
+  {
+    "day" : "Friday",
     "date": "May 22, 2026",
     "time": "7:00pm",
     "location": "Cante' Ao Vinho, Rocklin, CA",
@@ -378,10 +386,10 @@
   {
     "day" : "Saturday",
     "date": "June 6, 2026",
-    "time": "TBD",
-    "location": "Private Event, Petaluma, CA",
-    "band": "THE COLLECTIVE",
-    "custom": ""
+    "time": "6:00pm",
+    "location": "DarkHeart Brewing, Citrus Heights, CA",
+    "band": "LANDO-KOOP DUO",
+    "custom": "7110 Auburn Blvd., Citrus Heights"
   },
   {
     "day" : "Saturday",
