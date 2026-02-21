@@ -1,3 +1,0 @@
-- band name at top.
-
-- Custom field at the bottom under show entries.
