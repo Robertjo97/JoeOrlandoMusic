@@ -369,6 +369,14 @@
   },
   {
     "day" : "Friday",
+    "date": "April 24, 2026",
+    "time": "8:00pm",
+    "location": "The Boardwalk, Orangevale, CA",
+    "band": "THE COLLECTIVE",
+    "custom": "9426 Green back Ln. Orangevale, CA (916) 790-8290"
+  },
+  {
+    "day" : "Friday",
     "date": "May 8, 2026",
     "time": "8:00pm",
     "location": "Jan's Lounge, Orangevale, CA",
@@ -383,6 +391,14 @@
     "band": "THE COLLECTIVE",
     "custom": ""
   },
+   {
+    "day" : "Saturday",
+    "date": "May 23, 2026",
+    "time": "5:30pm",
+    "location": "BellaGrace Vineyards, Plymouth, CA",
+    "band": "THE SKY KINGS",
+    "custom": "22715 Upton Rd., Plymouth, CA (209) 267-8053"
+  },
   {
     "day" : "Saturday",
     "date": "June 6, 2026",
@@ -392,12 +408,36 @@
     "custom": "7110 Auburn Blvd., Citrus Heights"
   },
   {
+    "day" : "Sunday",
+    "date": "June 14, 2026",
+    "time": "7:00pm",
+    "location": "Fair Oaks Amphetheater, Fair Oaks, CA",
+    "band": "THE SKY KINGS",
+    "custom": "Village Park, Fair Oaks, CA"
+  },
+  {
+    "day" : "Wednesday",
+    "date": "June 17, 2026",
+    "time": "TBD",
+    "location": "Concerts in the Park, Tuolumne, CA",
+    "band": "THE SKY KINGS",
+    "custom": ""
+  },
+  {
     "day" : "Saturday",
     "date": "June 20, 2026",
     "time": "6:30pm",
     "location": "House of Oliver, Roseville, CA",
     "band": "THE COLLECTIVE",
     "custom": ""
+  },
+  {
+    "day" : "Friday",
+    "date": "June 26, 2026",
+    "time": "TBD",
+    "location": "Zittle Amphetheater, Folsom, CA",
+    "band": "THE SKY KINGS",
+    "custom": "Hometown Country Radio Show"
   },
   {
     "day" : "Friday",
@@ -414,6 +454,30 @@
     "location": "Cante' Ao Vinho, Rocklin, CA",
     "band": "THE COLLECTIVE",
     "custom": ""
+  },
+  {
+    "day" : "Friday",
+    "date": "September 4, 2026",
+    "time": "7:00pm",
+    "location": "Fair Oaks Amphetheater, Fair Oaks, CA",
+    "band": "THE SKY KINGS",
+    "custom": "Village Park, Fair Oaks, CA"
+  },
+  {
+    "day" : "Saturday",
+    "date": "September 5, 2026",
+    "time": "TBD",
+    "location": "Bistro Express, Arnold, CA",
+    "band": "THE SKY KINGS",
+    "custom": "Concerts in the Park"
+  },
+  {
+    "day" : "Saturday",
+    "date": "September 12, 2026",
+    "time": "TBD",
+    "location": "Zittle Amphetheater, Folsom, CA",
+    "band": "THE SKY KINGS",
+    "custom": "Light up the Dark Concert"
   },
   {
     "day" : "Saturday",
