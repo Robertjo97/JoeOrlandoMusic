@@ -445,7 +445,7 @@
     "time": "7:00pm",
     "location": "Cante' Ao Vinho, Rocklin, CA",
     "band": "THE COLLECTIVE",
-    "custom": ""
+    "custom": "Michael's Birthday Bash"
   },
   {
     "day" : "Friday",
@@ -480,6 +480,22 @@
     "custom": "Light up the Dark Concert"
   },
   {
+    "day" : "Friday",
+    "date": "September 18, 2026",
+    "time": "8:00pm",
+    "location": "Jan's Lounge, Orangevale, CA",
+    "band": "THE COLLECTIVE",
+    "custom": "9222 Greenback Ln, Orangevale, CA (916) 233-5235"
+  },  
+  {
+    "day" : "Saturday",
+    "date": "September 19, 2026",
+    "time": "6:00pm",
+    "location": "Wildwood Kitchen & Bar, Sacramento, CA",
+    "band": "THE COLLECTIVE",
+    "custom": "556 Pavilions Ln, Sacramento, CA (916) 922-2858"
+  },  
+  {
     "day" : "Saturday",
     "date": "September 26, 2026",
     "time": "6:30pm",
@@ -503,6 +519,14 @@
     "band": "THE COLLECTIVE",
     "custom": ""
   },
+  {
+    "day" : "Friday",
+    "date": "November 13, 2026",
+    "time": "8:00pm",
+    "location": "Jan's Lounge, Orangevale, CA",
+    "band": "THE COLLECTIVE",
+    "custom": "Joe's Birthday Bash, 9222 Greenback Ln, Orangevale, CA (916) 233-5235"
+  },  
   {
     "day" : "Friday",
     "date": "November 20, 2026",
