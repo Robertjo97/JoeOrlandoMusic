@@ -440,6 +440,14 @@
     "custom": "Hometown Country Radio Show"
   },
   {
+    "day" : "Saturday",
+    "date": "July 4, 2026",
+    "time": "6:00pm",
+    "location": "Hotel Sierra Vista, Auburn, CA",
+    "band": "THE COLLECTIVE",
+    "custom": "4th of July Bash with Food, Drink & Fireworks show!, 13535 Bowman Rd. Auburn CA (530) 492-5656!"
+  },
+  {
     "day" : "Friday",
     "date": "July 10, 2026",
     "time": "7:00pm",
